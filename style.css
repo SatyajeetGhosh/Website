@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    padding: 20px;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 150px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: white;
+    background: darkslateblue;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content h2 {
+    margin-left: 70px;
+    font-size: 40px;
+    color: black;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-left: 70px;
+    margin-top: 2px;
+    color: brown;
+}
+
+.content p {
+    margin-left: 70px;
+    margin-top: 25px;
+    max-width: 400px;
+    font-weight: 500;
+    font-size: 18px;
+    color: darkslategrey;
+}
+
+.background {
+    margin-left: 460px;
+    margin-top: -420px;
+}
+
+.features {
+    margin-top: 40px;
+}
+
+.s1 {
+    margin-top: 20px;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.s2 {
+    margin-top: 20px;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.s3 {
+    margin-top: 20px;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.f1 h2 {
+    color: darkblue;
+    font-size: 28px;
+}
+
+.f1 h3 {
+    margin-top: 10px;
+    max-width: 300px;
+    font-size: 15px;
+}
+
+.color-select {
+    background-position: 450px;
+    background-image: url(/Website/Images/antimatterBlue.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.color-select div {
+    background: black;
+    width: 350px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.color-select #blue {
+    background: darkblue;
+}
+
+.color-select #grey {
+    background: grey;
+}
+
+.color-select #yellow {
+    background: yellow;
+}
+
+.color-select #white {
+    background: whitesmoke;
+}
+
+.color-select #black {
+    background: black;
+}
+
+div #carcolor ul li {
+    list-style: none;
+    display: list-item;
+    color: black;
+    font-weight: 400;
+    margin-top: 55px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
